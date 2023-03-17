@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url("https://1.bp.blogspot.com/-cIieof-XhX0/Xq-DqzRuyTI/AAAAAAAAufc/Do6bYZNpDmotuQVUMjWClLJ__czT6dqawCLcBGAsYHQ/w1600/mountains_peaks_clouds_129396_3840x2160.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    margin-top: 45px;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+p {
+    font-size: 20px;
+}
+
+.sobre {
+    display: inline-block;
+    margin-left: 100px;
+    width: 550px;
+}
+
+.contatos {
+    margin-top: 50px;
+    margin-left: 343px;
+}
+
+
+
+
+.linkedin {
+    margin-top: 30px;
+    width: 180px;
+    margin-right: 20px;
+    height: 49px;
+}
+
+.gmail{
+    width: 180px;
+    height: 47px;
+}
+ 
+.container-projetos {
+    margin-top: 70px;
+    margin-left: 343px;
+    margin-bottom: 35px;
+}
+
+.meus-projetos {
+    margin-bottom: 50px;
+}
+
+
+img{
+    width: 350px;
+    height: 200px;
+    margin-top: 25px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+
+@media screen and (max-width: 900px){
+
+
+p{
+    font-size: 16px;
+}
+
+
+.sobre{
+    display: block;
+    margin-left: 55px;
+    max-width: 80%;
+}
+
+.linkedin {
+    width: 140px;
+    height: 35px;
+    }
+    
+.gmail{
+    width: 140px;
+    height: 35px;
+    display: block;
+    margin-top: 10px;
+}
+
+.contatos{
+    margin-left: 55px;
+}
+
+.container-projetos {
+    margin-top: 35px;
+    margin-left: 55px;
+}
+
+img{
+    width: 262px;
+    height: 150px;
+}
+
+.profile{
+    margin-left: 80px;
+    margin-bottom: 25px;
+}
+
+}
