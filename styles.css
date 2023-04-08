@@ -27,7 +27,7 @@ p {
 
 .sobre {
     display: inline-block;
-    margin-left: 100px;
+    margin-left: 65px;
     width: 550px;
 }
 
@@ -35,8 +35,6 @@ p {
     margin-top: 50px;
     margin-left: 343px;
 }
-
-
 
 
 .linkedin {
@@ -76,6 +74,10 @@ img{
     margin-left: 40px;
     margin-top: 40px;
     display: inline-block;
+}
+
+img:hover{
+    transform: translateY(-5px);
 }
 
 
